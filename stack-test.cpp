@@ -14,7 +14,7 @@ int main()
 
 	testStack.push(1);
 	testStack.push(2);
-  testStack.push(43);
+	testStack.push(43);
 	testStack.push(15);
 
 	cout << testStack.size() << endl;

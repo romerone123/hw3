@@ -93,14 +93,15 @@ int main(int argc, char* argv[])
     print(head);
 
     // Test out your linked list code
- /*   Node* smaller = NULL;
+/*  llpivot test
+    Node* smaller = NULL;
     Node* larger = NULL;
     
     llpivot(head, smaller, larger, 10);
     cout << "Smaller List: "; print(smaller); cout << endl;
     cout << "Larger List: "; print(larger);  cout << endl;
 */
-  
+  //llfilter test
     bool(*funcPtr)(int num)= filterOut; 
     Node* test = llfilter(head,funcPtr);
     print(test);
